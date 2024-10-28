@@ -65,9 +65,11 @@ const Organizers = () => {
                   <p>
                     Ingeniero DevOps con más de 10 años de experiencia en tecnologías de información,
                     <br />
-                    especializado en automatización, virtualización y nube. Actualmente trabaja en JOTELULU, diseñando
+                    especializado en automatización, virtualización y nube. Actualmente trabaja en JOTELULU,
                     <br />
-                    y manteniendo infraestructura en la nube con herramientas como CloudStack, Docker, Kubernetes, Ansible, y Terraform. 
+                    diseñando y manteniendo infraestructura en la nube con herramientas como CloudStack, Docker,
+                    <br />
+                    Kubernetes, Ansible, y Terraform. 
                     <br />
                     Co-Fundador y COO de XOps Conference.
                     <br />
@@ -75,7 +77,6 @@ const Organizers = () => {
                     <br />
                     Chapter Leader de DevSecCon Spain.
                     <br />
-                    Autodidacta. Eterno aprendiz.
                   </p>
                   <p>
                     <strong>Redes:</strong><br />
