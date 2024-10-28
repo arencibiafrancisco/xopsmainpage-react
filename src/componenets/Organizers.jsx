@@ -63,11 +63,17 @@ const Organizers = () => {
                     <strong>Posición:</strong> DevSecOps
                   </p>
                   <p>
-                    Ingeniero DevOps con más de 10 años de experiencia en tecnologías de información, especializado en automatización, virtualización y nube. Actualmente trabaja en JOTELULU, diseñando y manteniendo infraestructura en la nube con herramientas como CloudStack, Docker, Kubernetes, Ansible, y Terraform. 
+                    Ingeniero DevOps con más de 10 años de experiencia en tecnologías de información,
+                    <br />
+                    especializado en automatización, virtualización y nube. Actualmente trabaja en JOTELULU, diseñando
+                    <br />
+                    y manteniendo infraestructura en la nube con herramientas como CloudStack, Docker, Kubernetes, Ansible, y Terraform. 
                     <br />
                     Co-Fundador y COO de XOps Conference.
                     <br />
-                    Organizador y miembro de HackMadrid%27. Chapter Leader de DevSecCon Spain.
+                    Organizador y miembro de HackMadrid%27.
+                    <br />
+                    Chapter Leader de DevSecCon Spain.
                     <br />
                     Autodidacta. Eterno aprendiz.
                   </p>
