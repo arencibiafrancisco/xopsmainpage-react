@@ -8,92 +8,75 @@ import asturC from "../assets/collaborators/asturC.jpeg";
 import madridD from "../assets/collaborators/madridD.png";
 import morterueloC from "../assets/collaborators/morterueloC.png";
 
-
 import AnimationWrapper from "./AnimationWrapper";
-
 
 const Collaborators = () => {
   return (
     <>
-      <section id="ponentes" className="speaker-section ">
+      <section id="ponentes" className="speaker-section">
         <div className="container margin-top">
           <h2 className="text-center">Gracias al patrocinio de:</h2>
           <h2 className="text-center">PLATA</h2>
           <div className="speaker-cards margin-top">
-
-
             <div className="speaker1 justify-content-center d-flex justify-around margin-top">
-
-            <div className="speaker-img">
+              <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={seguridadS} alt="Roberto Gonzalez" style={{ height: '180px', width: '200px' }} />
+                  <img src={seguridadS} alt="Logo de Seguridad S" style={{ height: '180px', width: '200px' }} />
                 </AnimationWrapper>
-            </div>
+              </div>
             </div>
           </div>
 
           <hr />
           <hr />
 
-          <h2 className="text-center">Gracias a la colaboracion;</h2>
+          <h2 className="text-center">Gracias a la colaboración:</h2>
           <div className="speaker-cards margin-top">
+            <div className="speaker1 justify-content-center d-flex justify-around margin-top">
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-right" duration={1500}>
+                  <img src={hackB} alt="Logo de Hack B" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-right" duration={1500}>
+                  <img src={flaghuntersT} alt="Logo de Flag Hunters T" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-right" duration={1500}>
+                  <img src={hackBcn} alt="Logo de Hack BCN" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <img src={asturC} alt="Logo de Astur C" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <img src={madridD} alt="Logo de Madrid D" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+            </div>
 
-<div className="speaker1 justify-content-center d-flex justify-around margin-top">
-<div className="speaker-img">
-    <AnimationWrapper animation="fade-right" duration={1500}>
-      <img src={hackB} alt="Roberto Gonzalez" style={{ height: '120px', width: '150px' }} />
-    </AnimationWrapper>
-    </div>
-
-<div className="speaker-img">
-    <AnimationWrapper animation="fade-right" duration={1500}>
-      <img src={flaghuntersT} alt="Roberto Gonzalez" style={{ height: '120px', width: '150px' }} />
-    </AnimationWrapper>
-    </div>
-
-<div className="speaker-img">
-    <AnimationWrapper animation="fade-right" duration={1500}>
-      <img src={hackBcn} alt="Roberto Gonzalez" style={{ height: '120px', width: '150px' }} />
-    </AnimationWrapper>
-    </div>
-
-    <div className="speaker-img">
-    <AnimationWrapper animation="fade-left" duration={1500}>
-      <img src={asturC} alt="Roberto Gonzalez" style={{ height: '120px', width: '150px' }} />
-    </AnimationWrapper>
-</div>
-
-<div className="speaker-img">
-    <AnimationWrapper animation="fade-left" duration={1500}>
-      <img src={madridD} alt="Roberto Gonzalez" style={{ height: '120px', width: '150px' }} />
-    </AnimationWrapper>
-</div>
-
-</div>
-
-
-<div className="speaker1 d-flex justify-content-center justify-around margin-top">
-    
-<div className="speaker-img">
-    <AnimationWrapper animation="fade-left" duration={1500}>
-      <img src={morterueloC} alt="Roberto Gonzalez" style={{ height: '120px', width: '150px' }} />
-    </AnimationWrapper>
-    </div>
-
-    <div className="speaker-img">
-    <AnimationWrapper animation="fade-left" duration={1500}>
-      <img src={hackerD} alt="Roberto Gonzalez" style={{ height: '120px', width: '150px' }} />
-    </AnimationWrapper>
-    </div>
-
-</div>
-
-
-</div>
+            <div className="speaker1 d-flex justify-content-center justify-around margin-top">
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <img src={morterueloC} alt="Logo de Morteruelo C" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <img src={hackerD} alt="Logo de Hacker D" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
   );
-};   
+};
 
 export default Collaborators;
