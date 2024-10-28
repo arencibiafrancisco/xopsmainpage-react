@@ -1,12 +1,12 @@
-import cloud2sec from "../assets/Collaborators/cloud2sec.jpeg"; 
-import seguridadS from "../assets/Collaborators/seguridad.si.jpg";
-import hackerD from "../assets/Collaborators/hackerD.png";
-import hackB from "../assets/Collaborators/hackB.png";
-import flaghuntersT from "../assets/Collaborators/flaghuntersT.png";
-import hackBcn from "../assets/Collaborators/hackBcn.png";
-import asturC from "../assets/Collaborators/asturC.jpeg";
-import madridD from "../assets/Collaborators/madridD.png";
-import morterueloC from "../assets/Collaborators/morterueloC.png";
+import cloud2sec from "../assets/collaborators/cloud2sec.jpeg"; 
+import seguridadS from "../assets/collaborators/seguridad.si.jpg";
+import hackerD from "../assets/collaborators/hackerD.png";
+import hackB from "../assets/collaborators/hackB.png";
+import flaghuntersT from "../assets/collaborators/flaghuntersT.png";
+import hackBcn from "../assets/collaborators/hackBcn.png";
+import asturC from "../assets/collaborators/asturC.jpeg";
+import madridD from "../assets/collaborators/madridD.png";
+import morterueloC from "../assets/collaborators/morterueloC.png";
 
 
 import AnimationWrapper from "./AnimationWrapper";
