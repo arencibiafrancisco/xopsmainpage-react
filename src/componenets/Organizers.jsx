@@ -77,7 +77,9 @@ const Organizers = () => {
                     <br />
                     Chapter Leader de DevSecCon Spain.
                     <br />
-                    Cibercooperante del Instituto Nacional de Ciberseguridad (INCIBE) 
+                    Cibercooperante del Instituto Nacional de Ciberseguridad (INCIBE). 
+                    <br />
+                    Apasionado de la cultura hacker y el hacking ético.
                     <br />
                   </p>
                   <p>
