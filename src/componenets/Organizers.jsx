@@ -67,15 +67,17 @@ const Organizers = () => {
                     <br />
                     especializado en automatización, virtualización y nube. Actualmente trabaja en JOTELULU,
                     <br />
-                    diseñando y manteniendo infraestructura en la nube con herramientas como CloudStack, Docker,
+                    diseñando y manteniendo infraestructura en la nube con herramientas como CloudStack,
                     <br />
-                    Kubernetes, Ansible, y Terraform. 
+                    Docker, Kubernetes, Ansible, y Terraform. 
                     <br />
                     Co-Fundador y COO de XOps Conference.
                     <br />
                     Organizador y miembro de HackMadrid%27.
                     <br />
                     Chapter Leader de DevSecCon Spain.
+                    <br />
+                    Cibercooperante del Instituto Nacional de Ciberseguridad (INCIBE) 
                     <br />
                   </p>
                   <p>
