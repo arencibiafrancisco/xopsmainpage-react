@@ -9,7 +9,7 @@ const Themes = () => {
       <AnimationWrapper animation="fade-up" duration={1500}>
         <div className="container">
           <h6 className="heading text-center text-uppercase"></h6>
-          <h2 className='text-center font-weight-bold'>Temas Clave de la Conferencia</h2>
+          <h2 className="text-center font-weight-bold">Temas Clave de la Conferencia</h2>
           <p className="mt-4">
             La X-Ops Conference Madrid contará con una agenda completa y diversa que abarcará temas clave como automatización de pruebas de seguridad, integración continua, entrega continua, monitoreo y análisis de seguridad, arquitecturas seguras, y mucho más. 
             Los participantes podrán explorar las últimas tendencias y descubrir cómo implementar prácticas de X-Ops de manera efectiva en sus organizaciones.
@@ -35,12 +35,9 @@ const Themes = () => {
               <div className="card">
                 <img src={Theme2} className="card-img-top" alt="Tema 2" />
                 <div className="card-body">
-                  <h5 className="card-title">¿Cómo Será?</h5>
+                  <h5 className="card-title">¿Dónde y Cuándo?</h5>
                   <p className="card-text">
-                    La X-Ops Conference Madrid contará con una agenda completa y diversa que abarcará temas clave
-                    como la automatización de pruebas de seguridad, integración continua, entrega continua, monitoreo y
-                    análisis de seguridad, arquitecturas seguras, y mucho más. Los participantes podrán explorar las últimas
-                    tendencias y descubrir cómo implementar prácticas de X-Ops de manera efectiva en sus organizaciones.
+                    La X-Ops Conference Madrid se llevará a cabo los días 22 y 23 de noviembre en el Auditorio del ETSISI en el Campus Sur de la Universidad Politécnica de Madrid, en Vallecas. La agenda de la conferencia cubrirá temas como automatización de pruebas de seguridad, integración continua, entrega continua, monitoreo y arquitecturas seguras. Será un entorno ideal para aprender e implementar prácticas de X-Ops en sus organizaciones.
                   </p>
                 </div>
               </div>
