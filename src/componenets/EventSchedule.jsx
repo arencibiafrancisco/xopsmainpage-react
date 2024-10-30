@@ -76,7 +76,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroT">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">10:30 PM - 30 min</p>
                 <p>Ampliar las cargas de trabajo de IA con Kubernetes: Orquestar el éxito.</p>
                 <p>Aga Bielak</p>
@@ -114,7 +114,7 @@ const EventSchedule = () => {
             <div className="card cardmanzanares">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">11:00 PM - 60 min</p>
                 <p>Ambientes efímeros con Serverless y Custom Resources.</p>
                 <p>Oscar Cortes Bracho</p>
@@ -162,7 +162,7 @@ const EventSchedule = () => {
             <div className="card cardgranV">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">12:00 PM - 60 min</p>
                 <p>Pausa para café.</p>
                 <br />
@@ -176,7 +176,7 @@ const EventSchedule = () => {
             <div className="card cardplazaM">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">13:00 PM - 60 min</p>
                 <p>Instalación de Whonix en QEMU/KVM.</p>
                 <p>Pablo Gómez - Caldito</p>
@@ -191,7 +191,7 @@ const EventSchedule = () => {
                         <Modal.Title>Instalación de Whonix en QEMU/KVM</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                    Después de asistir a este taller, habrá instalado Whonix en su computadora portátil sobre QEMU/KVM. También mostrará cómo funciona QEMU/KVM como una mejor alternativa a los hipervisores propietarios.
+                    Después de asistir a este Lugar, habrá instalado Whonix en su computadora portátil sobre QEMU/KVM. También mostrará cómo funciona QEMU/KVM como una mejor alternativa a los hipervisores propietarios.
                     </Modal.Body>
                     <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                         <div>
@@ -214,7 +214,7 @@ const EventSchedule = () => {
             <div className="card cardmanzanaresD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">14:00 PM - 50 min</p>
                 <p>Creación de una plataforma de datos nativa de la nube teniendo en cuenta la seguridad.</p>
                 <p>Natalie Godec</p>
@@ -253,7 +253,7 @@ const EventSchedule = () => {
             <div className="card cardmetropolitano">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">14:50 PM - 50 min</p>
                 <p>Descubre y aplica la estrategia que utilizan xOPS para mejorar de trabajo.</p>
                 <p>Alejandro Acosta</p>
@@ -291,7 +291,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroTD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">15:40 PM - 50 min</p>
                 <p>AzureDevOps y la Ciberseguridad.</p>
                 <p>Joaquin Molina</p>
@@ -329,7 +329,7 @@ const EventSchedule = () => {
             <div className="card cardmetropolitanoD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">16:30 PM - 60 min</p>
                 <p>Lunch.</p>
                 <br />
@@ -343,7 +343,7 @@ const EventSchedule = () => {
             <div className="card cardministerios">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">17:30 PM - 50 min</p>
                 <p>Cilium: Seguridad y Observabilidad en Redes con EBPF.</p>
                 <p>Jon Rodriguez Aranguren.</p>
@@ -381,7 +381,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroT">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">18:20 PM - 50 min</p>
                 <p>Proteger las cargas de trabajo de Kubernetes: del código al clúster.</p>
                 <p>Álvaro Revuelta M.</p>
@@ -422,7 +422,7 @@ const EventSchedule = () => {
             <div className="card cardministeriosD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">19:10 PM - 50 min</p>
                 <p>Istio Ambient Mesh: Sidecar vs Sidecar-less como si tuviera 10 años.</p>
                 <p>Antonio Berben</p>
@@ -485,7 +485,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroTD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">20:00 PM - 30 min</p>
                 <p>Un puente entre MLOps y DevOps con OpenShift AI.</p>
                 <p>Juan Vicente Herrera Ruiz de Alejo</p>
@@ -541,7 +541,7 @@ const EventSchedule = () => {
             <div className="card cardpuertaA">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón Actos</h5>
                 <p className="card-text">21:00 PM - 60 min</p>
                 <p>Closing.</p>
                 <p>End...</p>
