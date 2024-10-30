@@ -52,7 +52,7 @@ const EventSchedule = () => {
             <div className="card cardBernabeu">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Registro:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Registro: </span>Salón Actos</h5>
                 <p className="card-text">9:00 AM - 60 min</p>
                 <p>Registro de clientes y organización.</p>
               </div>
@@ -64,7 +64,7 @@ const EventSchedule = () => {
             <div className="card cardBernabeuD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Inicio:</span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Inicio:  </span>Salón Actos</h5>
                 <p className="card-text">10:00 AM - 30 min</p>
                 <p>Establecer el tono del evento y dar la bienvenida a los asistentes.</p>
               </div>
