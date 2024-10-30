@@ -42,8 +42,8 @@ const EventSchedule = () => {
 
       <AnimationWrapper animation="fade-up" duration={1500}>
 
-      <h2 className="text-center margin-top">Horario del Evento</h2>
-      <h2 className="text-center margin-top">Madrid; Viernes 22 de Noviembre de 2024</h2>
+      <h2 className="text-center margin-top">Agenda</h2>
+      <h2 className="text-center margin-top">Viernes 22 de noviembre de 2024</h2>
       <div className="container mt-5">
         <div className="row">
 
