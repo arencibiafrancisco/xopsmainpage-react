@@ -36,7 +36,7 @@ const Collaborators = () => {
           <hr />
           <hr />
 
-          <h2 className="text-center">Gracias a la colaboración:</h2>
+          <h2 className="text-center">Gracias a la colaboración de:</h2>
           <div className="speaker-cards margin-top">
             <div className="speaker1 justify-content-center d-flex justify-around margin-top">
               <div className="speaker-img">
