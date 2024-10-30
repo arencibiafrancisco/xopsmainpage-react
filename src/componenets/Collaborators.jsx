@@ -7,6 +7,7 @@ import hackBcn from "../assets/collaborators/hackBcn.png";
 import asturC from "../assets/collaborators/asturC.jpeg";
 import madridD from "../assets/collaborators/madridD.png";
 import morterueloC from "../assets/collaborators/morterueloC.png";
+import amaxop from "../assets/collaborators/amaxop.png";
 
 import AnimationWrapper from "./AnimationWrapper";
 
@@ -22,6 +23,11 @@ const Collaborators = () => {
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
                   <img src={seguridadS} alt="Logo de Seguridad S" style={{ height: '180px', width: '200px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <img src={amaxop} alt="Logo de Amaxop" style={{ height: '180px', width: '200px' }} />
                 </AnimationWrapper>
               </div>
             </div>
