@@ -8,6 +8,7 @@ import asturC from "../assets/collaborators/asturC.jpeg";
 import madridD from "../assets/collaborators/madridD.png";
 import morterueloC from "../assets/collaborators/morterueloC.png";
 import amaxop from "../assets/collaborators/amaxop.png";
+import upmLogo from "../assets/collaborators/upm.png";
 
 import AnimationWrapper from "./AnimationWrapper";
 
@@ -75,6 +76,11 @@ const Collaborators = () => {
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
                   <img src={hackerD} alt="Logo de Hacker D" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img">
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <img src={upmLogo} alt="Logo de la UPM" style={{ height: '120px', width: '150px' }} />
                 </AnimationWrapper>
               </div>
             </div>
