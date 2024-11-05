@@ -9,6 +9,7 @@ import madridD from "../assets/collaborators/madridD.png";
 import morterueloC from "../assets/collaborators/morterueloC.png";
 import amaxop from "../assets/collaborators/amaxop.png";
 import upmLogo from "../assets/collaborators/upm.png";
+import devsecconLogo from "../assets/collaborators/devseccon.png"; // Nuevo logo importado
 
 import AnimationWrapper from "./AnimationWrapper";
 
@@ -81,6 +82,13 @@ const Collaborators = () => {
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
                   <img src={upmLogo} alt="Logo de la UPM" style={{ height: '120px', width: '150px' }} />
+                </AnimationWrapper>
+              </div>
+              <div className="speaker-img"> {/* Nuevo bloque de imagen */}
+                <AnimationWrapper animation="fade-left" duration={1500}>
+                  <a href="https://snyk.io/community/" target="_blank" rel="noopener noreferrer">
+                    <img src={devsecconLogo} alt="Logo de DevSecCon" style={{ height: '120px', width: '150px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
             </div>
