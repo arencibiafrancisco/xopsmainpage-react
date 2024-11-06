@@ -183,7 +183,7 @@ const EventSchedule = () => {
                 <p className="card-text">12:00 h - 60 min</p>
                 <p>Pausa para café.</p>
                 <br />
-                <p>Breack.</p>
+                <p>Break.</p>
               </div>
             </div>
           </div>
@@ -321,7 +321,7 @@ const EventSchedule = () => {
                 <p className="card-text">16:30 h - 60 min</p>
                 <p>Lunch.</p>
                 <br />
-                <p>Breack.</p>
+                <p>Break.</p>
               </div>
             </div>
           </div>

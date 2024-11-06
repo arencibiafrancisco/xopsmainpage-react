@@ -157,7 +157,7 @@ const EventSchedule = () => {
             </div>
           </div>
 
-          {/* Breack Evento */}
+          {/* Break Evento */}
           <div className="col-md-6 mb-4">
             <div className="card cardgranV">
               <div className="overlay"></div>
@@ -324,7 +324,7 @@ const EventSchedule = () => {
             </div>
           </div>
 
-          {/* Breack Evento */}
+          {/* Break Evento */}
           <div className="col-md-6 mb-4">
             <div className="card cardmetropolitanoD">
               <div className="overlay"></div>

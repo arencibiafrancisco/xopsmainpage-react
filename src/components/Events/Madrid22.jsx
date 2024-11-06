@@ -159,7 +159,7 @@ const EventSchedule = () => {
             </div>
           </div>
 
-          {/* Breack Evento */}
+          {/* Break Evento */}
           <div className="col-md-6 mb-4">
             <div className="card cardgranV">
               <div className="overlay"></div>
@@ -168,7 +168,7 @@ const EventSchedule = () => {
                 <p className="card-text">12:00 h - 60 min</p>
                 <p>Pausa para café.</p>
                 <br />
-                <p>Breack.</p>
+                <p>Break.</p>
               </div>
             </div>
           </div>
@@ -325,7 +325,7 @@ const EventSchedule = () => {
             </div>
           </div>
 
-          {/* Breack Evento */}
+          {/* Break Evento */}
           <div className="col-md-6 mb-4">
             <div className="card cardmetropolitanoD">
               <div className="overlay"></div>
@@ -334,7 +334,7 @@ const EventSchedule = () => {
                 <p className="card-text">16:30 h - 60 min</p>
                 <p>Lunch.</p>
                 <br />
-                <p>Breack.</p>
+                <p>Break.</p>
               </div>
             </div>
           </div>
