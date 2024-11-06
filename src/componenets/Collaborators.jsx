@@ -9,7 +9,7 @@ import madridD from "../assets/collaborators/madridD.png";
 import morterueloC from "../assets/collaborators/morterueloC.png";
 import amaxop from "../assets/collaborators/amaxop.png";
 import upmLogo from "../assets/collaborators/upm.png";
-import devsecconLogo from "../assets/collaborators/devseccon.png"; // Nuevo logo importado
+import devsecconLogo from "../assets/collaborators/devseccon.png";
 
 import AnimationWrapper from "./AnimationWrapper";
 
@@ -24,12 +24,16 @@ const Collaborators = () => {
             <div className="speaker1 justify-content-center d-flex justify-around margin-top">
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={seguridadS} alt="Logo de Seguridad S" style={{ height: '180px', width: '200px' }} />
+                  <a href="https://www.seguridadsi.com/" target="_blank" rel="noopener noreferrer">
+                    <img src={seguridadS} alt="Logo de Seguridad S" style={{ height: '180px', width: '200px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={amaxop} alt="Logo de Amaxop" style={{ height: '180px', width: '200px' }} />
+                  <a href="https://www.amaxop.com" target="_blank" rel="noopener noreferrer">
+                    <img src={amaxop} alt="Logo de Amaxop" style={{ height: '180px', width: '200px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
             </div>
@@ -58,12 +62,16 @@ const Collaborators = () => {
               </div>
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={asturC} alt="Logo de Astur C" style={{ height: '120px', width: '150px' }} />
+                  <a href="https://asturcon.tech/" target="_blank" rel="noopener noreferrer">
+                    <img src={asturC} alt="Logo de Astur C" style={{ height: '120px', width: '150px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={madridD} alt="Logo de Madrid D" style={{ height: '120px', width: '150px' }} />
+                  <a href="https://madrid.devops.es/" target="_blank" rel="noopener noreferrer">
+                    <img src={madridD} alt="Logo de Madrid D" style={{ height: '120px', width: '150px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
             </div>
@@ -71,20 +79,26 @@ const Collaborators = () => {
             <div className="speaker1 d-flex justify-content-center justify-around margin-top">
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={morterueloC} alt="Logo de Morteruelo C" style={{ height: '120px', width: '150px' }} />
+                  <a href="https://www.morteruelo.net/" target="_blank" rel="noopener noreferrer">
+                    <img src={morterueloC} alt="Logo de Morteruelo C" style={{ height: '120px', width: '150px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={hackerD} alt="Logo de Hacker D" style={{ height: '120px', width: '150px' }} />
+                  <a href="https://hackerdreams.org/" target="_blank" rel="noopener noreferrer">
+                    <img src={hackerD} alt="Logo de Hacker D" style={{ height: '120px', width: '150px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
               <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
-                  <img src={upmLogo} alt="Logo de la UPM" style={{ height: '120px', width: '150px' }} />
+                  <a href="https://www.upm.es/" target="_blank" rel="noopener noreferrer">
+                    <img src={upmLogo} alt="Logo de la UPM" style={{ height: '120px', width: '150px' }} />
+                  </a>
                 </AnimationWrapper>
               </div>
-              <div className="speaker-img"> {/* Nuevo bloque de imagen */}
+              <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
                   <a href="https://snyk.io/community/" target="_blank" rel="noopener noreferrer">
                     <img src={devsecconLogo} alt="Logo de DevSecCon" style={{ height: '120px', width: '150px' }} />
