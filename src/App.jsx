@@ -4,7 +4,7 @@ import logo from "./assets/xops.png";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import Home from './pages/Home';
-import Organizers from './componenets/Organizers';   
+import Organizers from './components/Organizers';   
 import Sponsor from './pages/Sponsor';
 import './styles/Custom.css'; 
 import './styles/PricingTable.css'; 
