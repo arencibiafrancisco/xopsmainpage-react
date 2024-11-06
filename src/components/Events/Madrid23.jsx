@@ -62,8 +62,8 @@ const EventSchedule = () => {
             <div className="card cardcuatroT">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salon Actos</h5>
-                <p className="card-text">10:30 PM - 50 min</p>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <p className="card-text">10:30 h - 50 min</p>
                 <p>El Futuro de las Operaciones con Agentes de IA: De la Automatización a la Autonomía.</p>
                 <p>Santiago Castro Vilabella</p>
 
@@ -85,7 +85,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                                10:30 PM - 50 min
+                                10:30 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -100,8 +100,8 @@ const EventSchedule = () => {
             <div className="card cardmanzanares">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salon Actos</h5>
-                <p className="card-text">11:20 PM - 50 min</p>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <p className="card-text">11:20 h - 50 min</p>
                 <p>SDLC con OWASP.</p>
                 <p>Gabriela García</p>
 
@@ -124,7 +124,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            11:20 PM - 50 min
+                            11:20 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -139,8 +139,8 @@ const EventSchedule = () => {
             <div className="card cardpuertaA">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salon Actos</h5>
-                <p className="card-text">13:40 PM - 40 min</p>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <p className="card-text">13:40 h - 40 min</p>
                 <p>Closing.</p>
                 <p>End...</p>
               </div>

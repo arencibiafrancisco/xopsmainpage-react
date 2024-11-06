@@ -8,6 +8,8 @@ import hackBcn from "../assets/collaborators/hackBcn.png";
 import asturC from "../assets/collaborators/asturC.jpeg";
 import madridD from "../assets/collaborators/madridD.png";
 import morterueloC from "../assets/collaborators/morterueloC.png";
+import upmLogo from "../assets/collaborators/upm.png";
+import devsecconLogo from "../assets/collaborators/devseccon.png";
 
 import AnimationWrapper from "./AnimationWrapper";
 
@@ -96,7 +98,7 @@ const Collaborators = () => {
                   </a>
                 </AnimationWrapper>
               </div>
-              {/* <div className="speaker-img">
+              <div className="speaker-img">
                 <AnimationWrapper animation="fade-left" duration={1500}>
                   <a href="https://www.upm.es/" target="_blank" rel="noopener noreferrer">
                     <img src={upmLogo} alt="Logo de la UPM" style={{ height: '120px', width: '150px' }} />
@@ -109,7 +111,7 @@ const Collaborators = () => {
                     <img src={devsecconLogo} alt="Logo de DevSecCon" style={{ height: '120px', width: '150px' }} />
                   </a>
                 </AnimationWrapper>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

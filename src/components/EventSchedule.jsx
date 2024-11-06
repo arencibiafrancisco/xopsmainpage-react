@@ -486,7 +486,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">20:00 PM - 30 min</p>
+                <p className="card-text">20:00 h - 30 min</p>
                 <p>Un puente entre MLOps y DevOps con OpenShift AI.</p>
                 <p>Juan Vicente Herrera Ruiz de Alejo</p>
 
