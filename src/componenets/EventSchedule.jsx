@@ -53,7 +53,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Registro: </span>Salón Actos</h5>
-                <p className="card-text">9:00 AM - 60 min</p>
+                <p className="card-text">9:00 h - 60 min</p>
                 <p>Registro de clientes y organización.</p>
               </div>
             </div>
@@ -65,7 +65,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Inicio:  </span>Salón Actos</h5>
-                <p className="card-text">10:00 AM - 30 min</p>
+                <p className="card-text">10:00 h - 30 min</p>
                 <p>Establecer el tono del evento y dar la bienvenida a los asistentes.</p>
               </div>
             </div>
@@ -77,7 +77,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">10:30 PM - 30 min</p>
+                <p className="card-text">10:30 h - 30 min</p>
                 <p>Ampliar las cargas de trabajo de IA con Kubernetes: Orquestar el éxito.</p>
                 <p>Aga Bielak</p>
 
@@ -99,7 +99,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                                10:30 PM - 30 min
+                                10:30 h - 30 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -115,7 +115,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">11:00 PM - 60 min</p>
+                <p className="card-text">11:00 h - 60 min</p>
                 <p>Ambientes efímeros con Serverless y Custom Resources.</p>
                 <p>Oscar Cortes Bracho</p>
 
@@ -147,7 +147,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            11:00 PM - 60 min
+                            11:00 h - 60 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -163,7 +163,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">12:00 PM - 60 min</p>
+                <p className="card-text">12:00 h - 60 min</p>
                 <p>Pausa para café.</p>
                 <br />
                 <p>Break.</p>
@@ -177,7 +177,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">13:00 PM - 60 min</p>
+                <p className="card-text">13:00 h - 60 min</p>
                 <p>Instalación de Whonix en QEMU/KVM.</p>
                 <p>Pablo Gómez - Caldito</p>
 
@@ -199,7 +199,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            13:00 PM - 60 min
+                            13:00 h - 60 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -215,7 +215,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">14:00 PM - 50 min</p>
+                <p className="card-text">14:00 h - 50 min</p>
                 <p>Creación de una plataforma de datos nativa de la nube teniendo en cuenta la seguridad.</p>
                 <p>Natalie Godec</p>
 
@@ -237,7 +237,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            14:00 PM - 50 min
+                            14:00 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -254,7 +254,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">14:50 PM - 50 min</p>
+                <p className="card-text">14:50 h - 50 min</p>
                 <p>Descubre y aplica la estrategia que utilizan xOPS para mejorar de trabajo.</p>
                 <p>Alejandro Acosta</p>
 
@@ -276,7 +276,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            14:50 PM - 50 min
+                            14:50 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -292,7 +292,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">15:40 PM - 50 min</p>
+                <p className="card-text">15:40 h - 50 min</p>
                 <p>AzureDevOps y la Ciberseguridad.</p>
                 <p>Joaquin Molina</p>
 
@@ -314,7 +314,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            15:40 PM - 50 min
+                            15:40 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -330,7 +330,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">16:30 PM - 60 min</p>
+                <p className="card-text">16:30 h - 60 min</p>
                 <p>Lunch.</p>
                 <br />
                 <p>Break.</p>
@@ -344,7 +344,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">17:30 PM - 50 min</p>
+                <p className="card-text">17:30 h - 50 min</p>
                 <p>Cilium: Seguridad y Observabilidad en Redes con EBPF.</p>
                 <p>Jon Rodriguez Aranguren.</p>
 
@@ -366,7 +366,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            17:30 PM - 50 min
+                            17:30 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -382,7 +382,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">18:20 PM - 50 min</p>
+                <p className="card-text">18:20 h - 50 min</p>
                 <p>Proteger las cargas de trabajo de Kubernetes: del código al clúster.</p>
                 <p>Álvaro Revuelta M.</p>
 
@@ -407,7 +407,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            18:20 PM - 50 min
+                            18:20 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -423,7 +423,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">19:10 PM - 50 min</p>
+                <p className="card-text">19:10 h - 50 min</p>
                 <p>Istio Ambient Mesh: Sidecar vs Sidecar-less como si tuviera 10 años.</p>
                 <p>Antonio Berben</p>
 
@@ -470,7 +470,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            19:10 PM - 50 min
+                            19:10 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -526,7 +526,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            20:00 PM - 30 min
+                            20:00 h - 30 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -542,7 +542,7 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">21:00 PM - 60 min</p>
+                <p className="card-text">21:00 h - 60 min</p>
                 <p>Closing.</p>
                 <p>End...</p>
               </div>
