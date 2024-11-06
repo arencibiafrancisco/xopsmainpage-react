@@ -1,4 +1,5 @@
-import Organizers from "../componenets/Organizers";
+import React from 'react';
+import Organizers from "../components/Organizers";
 
 
 const Organizer = () => {

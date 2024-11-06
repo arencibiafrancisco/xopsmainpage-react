@@ -1,9 +1,10 @@
-import XOpsSection from "../componenets/XOpsSection";
-import Themes from "../componenets/Themes";
-import SpeakersSection from "../componenets/SpeakersSection";
-import EventSchedule from "../componenets/EventSchedule";
-import Ubication from "../componenets/Ubication";
-import Collaborators from "../componenets/Collaborators"; 
+import React from 'react';
+import XOpsSection from "../components/XOpsSection";
+import Themes from "../components/Themes";
+import SpeakersSection from "../components/SpeakersSection";
+import Events from "../components/Events/Events";
+import Ubication from "../components/Ubication";
+import Collaborators from "../components/Collaborators"; 
 
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
 
       <XOpsSection />
       <Themes />
-      <EventSchedule />
+      <Events />
       <Ubication />
       <Collaborators />
       <SpeakersSection />
