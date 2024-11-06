@@ -39,8 +39,8 @@ jobs:
         run: npm ci && npm install --save-dev gh-pages
       - name: Build
         run: npm run build
-      - name: Deploy
-        run: npm run deploy
+      # - name: Deploy
+      #   run: npm run deploy
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
