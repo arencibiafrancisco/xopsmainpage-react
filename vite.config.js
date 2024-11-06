@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/xopsmainpage-react/',
+  base: '/dist/',
   optimizeDeps: {
     include: [
       'react-bootstrap',  // Asegúrate de incluir react-bootstrap
