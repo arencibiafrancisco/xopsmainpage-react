@@ -37,7 +37,7 @@ const scrollToPonentes = () => {
 
   return (
     <>
-<Router basename="/xops">
+<Router basename="/">
 <div className="root home-main-section">
         <Navbar bg="light" expand="lg" className='header'>
         <Navbar.Brand href="#home" className='text-white font-weight-bold'>XOPS CONFERENCE</Navbar.Brand>
