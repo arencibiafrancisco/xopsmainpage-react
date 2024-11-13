@@ -78,7 +78,7 @@ const EventSchedule = () => {
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
                 <p className="card-text">10:30 h - 30 min</p>
-                <p>Ampliar las cargas de trabajo de IA con Kubernetes: Orquestar el éxito.</p>
+                <p>Scaling AI Workloads with Kubernetes: Orchestrating Success.</p>
                 <p>Aga Bielak</p>
 
                 <button onClick={tercerShow} className="button menu-btn">Más Detalles</button>
@@ -88,10 +88,10 @@ const EventSchedule = () => {
                     onHide={tercerHid} 
                 >
                     <Modal.Header closeButton>
-                        <Modal.Title>Ampliar las cargas de trabajo de IA con Kubernetes: Orquestar el éxito.</Modal.Title>
+                        <Modal.Title>Scaling AI Workloads with Kubernetes: Orchestrating Success.</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                    Descubra estrategias comprobadas para implementar y escalar con éxito cargas de trabajo de IA dentro de Google Kubernetes Engine (GKE). Esta sesión proporcionará una guía práctica para optimizar la asignación de recursos, maximizar la utilización de GPU y optimizar los procesos de capacitación distribuidos. Profundice en las mejores prácticas, herramientas especializadas y funciones de GCP para garantizar que sus proyectos de IA alcancen un rendimiento y una escalabilidad óptimos en Kubernetes. Salga con información útil para mejorar sus implementaciones de IA en la nube.
+                      Discover proven strategies to successfully deploy and scale AI workloads within Google Kubernetes Engine (GKE). This session will provide a practical guide to optimizing resource allocation, maximizing GPU utilization, and streamlining distributed training processes. Delve into best practices, specialized tools, and GCP features to ensure your AI projects achieve optimal performance and scalability on Kubernetes. Leave with actionable insights to enhance your AI cloud implementations.
                     </Modal.Body>
                     <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                         <div>

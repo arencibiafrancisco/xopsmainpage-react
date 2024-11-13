@@ -52,8 +52,8 @@ const EventSchedule = () => {
             <div className="card cardBernabeu">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Registro:</span>Salon Actos</h5>
-                <p className="card-text">9:00 AM - 60 min</p>
+                <h5 className="card-title"><span className='heading'>Registro:</span>Salón de Actos</h5>
+                <p className="card-text">9:00 h - 60 min</p>
                 <p>Registro de clientes y organización.</p>
               </div>
             </div>
@@ -64,8 +64,8 @@ const EventSchedule = () => {
             <div className="card cardBernabeuD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Inicio:</span>Salon Actos</h5>
-                <p className="card-text">10:00 AM - 30 min</p>
+                <h5 className="card-title"><span className='heading'>Inicio:</span>Salón de Actos</h5>
+                <p className="card-text">10:00 h - 30 min</p>
                 <p>Establecer el tono del evento y dar la bienvenida a los asistentes.</p>
               </div>
             </div>
@@ -76,7 +76,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroT">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">10:30 h - 50 min</p>
                 <p>Navegando por el caos: un enfoque holístico para la gestión de incidentes.</p>
                 <p>Hila Fish</p>
@@ -123,7 +123,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroTD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">11:20 h - 40 min</p>
                 <p>Un puente entre MLOps y DevOps con OpenShift AI.</p>
                 <p>Juan Vicente Herrera Ruiz de Alejo</p>
@@ -179,7 +179,7 @@ const EventSchedule = () => {
             <div className="card cardgranV">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">12:00 h - 60 min</p>
                 <p>Pausa para café.</p>
                 <br />
@@ -193,7 +193,7 @@ const EventSchedule = () => {
             <div className="card cardmanzanares">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">13:00 h - 60 min</p>
                 <p>Ambientes efímeros con Serverless y Custom Resources.</p>
                 <p>Oscar Cortes Bracho</p>
@@ -241,7 +241,7 @@ const EventSchedule = () => {
             <div className="card cardmanzanaresD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">14:00 h - 50 min</p>
                 <p>SDLC con OWASP.</p>
                 <p>Gabriela García</p>
@@ -279,7 +279,7 @@ const EventSchedule = () => {
             <div className="card cardmetropolitano">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">14:50 h - 50 min</p>
                 <p>Creación de una plataforma de datos nativa de la nube teniendo en cuenta la seguridad.</p>
                 <p>Natalie Godec</p>
@@ -317,7 +317,7 @@ const EventSchedule = () => {
             <div className="card cardmetropolitanoD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">16:30 h - 60 min</p>
                 <p>Lunch.</p>
                 <br />
@@ -331,7 +331,7 @@ const EventSchedule = () => {
             <div className="card cardministerios">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">18:15 h - 50 min</p>
                 <p>Proteger las cargas de trabajo de Kubernetes: del código al clúster.</p>
                 <p>Álvaro Revuelta M.</p>
@@ -372,7 +372,7 @@ const EventSchedule = () => {
             <div className="card cardministeriosD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">19:05 h - 50 min</p>
                 <p>Istio Ambient Mesh: Sidecar vs Sidecar-less como si tuviera 10 años.</p>
                 <p>Antonio Berben</p>
@@ -435,7 +435,7 @@ const EventSchedule = () => {
             <div className="card cardplazaM">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">19:55 h - 70 min</p>
                 <p>Instalación de Whonix en QEMU/KVM.</p>
                 <p>Pablo Gómez - Caldito</p>
@@ -473,7 +473,7 @@ const EventSchedule = () => {
             <div className="card cardpuertaA">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Taller:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Taller:</span>Salón de Actos</h5>
                 <p className="card-text">21:00 h - 60 min</p>
                 <p>Closing.</p>
                 <p>End...</p>

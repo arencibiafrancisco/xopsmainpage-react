@@ -37,11 +37,15 @@ const EventSchedule = () => {
   const doceHid = () => setdoceS(false);
   const doceShow = () => setdoceS(true);
 
+  const [quinceS, setquinceS] = useState(false);
+  const quiceHid = () => setquinceS(false);
+  const quinceShow = () => setquinceS(true);
+
   return (
     <section id="events" className="event-schedule-section">
 
       <AnimationWrapper animation="fade-up" duration={1500}>
-      <h2 className="text-center margin-top">Madrid; Sabado 23 de Noviembre de 2024</h2>
+      <h2 className="text-center margin-top">Madrid; Sábado 23 de Noviembre de 2024</h2>
       <div className="container mt-5">
         <div className="row">
 
@@ -50,8 +54,8 @@ const EventSchedule = () => {
             <div className="card cardBernabeuD">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Inicio:</span>Salon Actos</h5>
-                <p className="card-text">10:00 AM - 30 min</p>
+                <h5 className="card-title"><span className='heading'>Inicio:</span>Salón de Actos</h5>
+                <p className="card-text">10:00 h - 30 min</p>
                 <p>Establecer el tono del evento y dar la bienvenida a los asistentes.</p>
               </div>
             </div>
@@ -62,7 +66,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroT">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">10:30 h - 50 min</p>
                 <p>El Futuro de las Operaciones con Agentes de IA: De la Automatización a la Autonomía.</p>
                 <p>Santiago Castro Vilabella</p>
@@ -100,7 +104,7 @@ const EventSchedule = () => {
             <div className="card cardmanzanares">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">11:20 h - 50 min</p>
                 <p>SDLC con OWASP.</p>
                 <p>Gabriela García</p>
@@ -134,15 +138,59 @@ const EventSchedule = () => {
             </div>
           </div>
 
-          {/* End Evento */}
+          {/* Natalie G. Evento */} 
+          <div className="col-md-6 mb-4">
+            <div className="card cardmanzanaresD">
+              <div className="overlay"></div>
+              <div className="card-body text-white">
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
+                <p className="card-text">12:10 h - 50 min</p>
+                <p>Balancing tight security with fluid devex, powered by GKE.</p>
+                <p>Natalie Godec</p>
+
+                <button onClick={septShow} className="button menu-btn">Más Detalles</button>
+
+                <Modal 
+                    show={septS} 
+                    onHide={septHid} 
+                >
+                    <Modal.Header closeButton>
+                        <Modal.Title>Balancing tight security with fluid devex, powered by GKE.</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                    The most secure server is one that is disconnected from the Internet and unplugged. And the most convenient environment for devs is where they have admin access to production and the freedom do what they want. How do you marry the two?
+                    <br />
+                    <br />
+                    Let's look at a real-world scenario where we built a cloud-native fintech platform on GKE. The vision? A robust, flexible, and secure foundation that supports SOC2-compliant deployments and empowers developers to be as productive as possible, contrary to the typical for the financial sector blown-out processes and approval chases.
+                    <br />
+                    <br />
+                    This solution is powered by Google Kubernetes Engine (GKE) and the cloud's niftiest security tools from the Secure Supply Chain toolkit.
+                    </Modal.Body>
+                    <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+                        <div>
+                            <p className="card-text" style={{ textAlign: 'left', margin: '0', padding: '0' }}>Natalie Godec</p>
+                        </div>
+                        <div style={{ textAlign: 'right' }}>
+                            <p className="card-text" style={{ margin: '0', padding: '0' }}>
+                            12:10 h - 50 min
+                            </p>
+                        </div>
+                    </Modal.Footer>
+                </Modal>
+
+              </div>
+            </div>
+          </div>  
+
+          {/* Fin del Evento */}
          <div className="col-md-6 mb-4">
             <div className="card cardpuertaA">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salon Actos</h5>
-                <p className="card-text">13:40 h - 40 min</p>
-                <p>Closing.</p>
-                <p>End...</p>
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
+                <p className="card-text">13:00 h</p>
+                <p>Cierre.</p>
+                <p>Fin...</p>
               </div>
             </div>
           </div>

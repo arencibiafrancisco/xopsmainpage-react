@@ -63,7 +63,7 @@ const scrollToPonentes = () => {
         <div className="container">
             <h1 className="display-4 font-weight-bold">¡ÚNETE A LA REVOLUCIÓN X-OPS!</h1>
             <p className="lead">El mundo de las IT está cambiando. Únete a nosotros en la X-Ops Conference, donde descubrirás cómo la tecnología y las personas adecuadas están impulsando el cambio.        </p>
-            <p className="lead">Fecha: Noviembre 2024 </p>
+            <p className="lead">Fecha: 22 y 23 de Noviembre 2024 </p>
             <div className="mt-4 mx-4">
             <a href="https://www.eventbrite.es/e/entradas-xops-conference-1049115200807?aff=oddtdtcreator" className="btn mx-2 my-2 bg-color text-white btn-lg mr-3">Compra tu entrada</a>
                 <a onClick={scrollToEvents} className="btn mx-2  my-2 btn-outline-light btn-lg">Descubre más</a>
@@ -88,7 +88,7 @@ const scrollToPonentes = () => {
         <div className="row">
           <div className="col-md-4 mb-3">
             <h5 className='heading'>Dirección</h5>
-            <p>Universidad Politecnica de Madrid</p>
+            <p>Universidad Politécnica de Madrid</p>
             <p>M-40, Puente de Vallecas, 28031 Madrid.</p>
           </div>
           <div className="col-md-4 mb-3">

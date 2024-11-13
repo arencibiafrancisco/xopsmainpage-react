@@ -30,7 +30,7 @@ const App = () => {
         
         
         <button onClick={mostrarTexto1} className="date-btn">Viernes 22/11/2024</button>
-        <button onClick={mostrarTexto2} className="date-btn">Sabado 23/11/2024</button>
+        <button onClick={mostrarTexto2} className="date-btn">Sábado 23/11/2024</button>
       </div>
       <div style={{ textAlign: 'center', marginTop: '-45px' }}>
         {textoVisible === 'componente1' ? <Madrid22 /> : <Madrid23 />}
