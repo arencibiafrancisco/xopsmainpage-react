@@ -8,11 +8,6 @@ const EventSchedule = () => {
   const tercerHid = () => settercerS(false);
   const tercerShow = () => settercerS(true);
 
-
-  const [quartoS, setquartoS] = useState(false);
-  const quartoHid = () => setquartoS(false);
-  const quartoShow = () => setquartoS(true);
-
   const [sestoS, setsestoS] = useState(false);
   const sestoHid = () => setsestoS(false);
   const sestoShow = () => setsestoS(true);
@@ -20,26 +15,6 @@ const EventSchedule = () => {
   const [septS, setseptS] = useState(false);
   const septHid = () => setseptS(false);
   const septShow = () => setseptS(true);
-
-  const [octavoS, setoctavoS] = useState(false);
-  const octavoHid = () => setoctavoS(false);
-  const octavoShow = () => setoctavoS(true);
-
-  const [diezS, setdiezS] = useState(false);
-  const diezHid = () => setdiezS(false);
-  const diezShow = () => setdiezS(true);
-
-  const [onceS, setonceS] = useState(false);
-  const onceHid = () => setonceS(false);
-  const onceShow = () => setonceS(true);
-
-  const [doceS, setdoceS] = useState(false);
-  const doceHid = () => setdoceS(false);
-  const doceShow = () => setdoceS(true);
-
-  const [quinceS, setquinceS] = useState(false);
-  const quiceHid = () => setquinceS(false);
-  const quinceShow = () => setquinceS(true);
 
   return (
     <section id="events" className="event-schedule-section">
