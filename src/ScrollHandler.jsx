@@ -12,6 +12,7 @@ const ScrollHandler = () => {
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
         }
+
     }, [location]);
 
     return null; // Este componente no necesita renderizar nada
