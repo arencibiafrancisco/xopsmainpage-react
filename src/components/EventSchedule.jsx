@@ -76,7 +76,7 @@ const EventSchedule = () => {
             <div className="card cardcuatroT">
               <div className="overlay"></div>
               <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
+                <h5 className="card-title"><span className='heading'>Lugar: </span> Salón Actos</h5>
                 <p className="card-text">10:30 h - 30 min</p>
                 <p>Scaling AI Workloads with Kubernetes: Orchestrating Success.</p>
                 <p>Aga Bielak</p>

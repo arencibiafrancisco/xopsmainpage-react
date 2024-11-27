@@ -323,13 +323,53 @@ const EventSchedule = () => {
             </div>
           </div>
 
+
+          {/* Gabriela G. Evento */}
+          <div className="col-md-6 mb-4">
+            <div className="card cardmanzanares">
+              <div className="overlay"></div>
+              <div className="card-body text-white">
+                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
+                <p className="card-text">16:00 h - 50 min</p>
+                <p>SDLC con OWASP.</p>
+                <p>Gabriela García</p>
+
+                <button onClick={treceShow} className="button menu-btn">Más Detalles</button>
+
+                <Modal 
+                    show={treceS} 
+                    onHide={treceHid} 
+                >
+                    <Modal.Header closeButton>
+                        <Modal.Title>SDLC con OWASP</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                    Discutimos cómo integrar la seguridad en cada etapa del SDLC, desde la planificación hasta el mantenimiento, para crear aplicaciones robustas y seguras utilizando las directrices, elementos y software de OWASP para crear un "framework" propio de seguridad para desarrolladores.
+                    </Modal.Body>
+                    <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+                        <div>
+                            <p className="card-text" style={{ textAlign: 'left', margin: '0', padding: '0' }}>Gabriela García
+                            </p>
+                        </div>
+                        <div style={{ textAlign: 'right' }}>
+                            <p className="card-text" style={{ margin: '0', padding: '0' }}>
+                            16:00 h - 50 min
+                            </p>
+                        </div>
+                    </Modal.Footer>
+                </Modal>
+
+              </div>
+            </div>
+          </div>
+
           {/* Alejandro A. Evento */}
           <div className="col-md-6 mb-4">
             <div className="card cardmetropolitano">
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
-                <p className="card-text">16:00 h - 50 min</p>
+                <p className="card-text">16:50 h - 50 min</p>
                 <p>Descubre y aplica la estrategia que utilizan XOPS para mejorar de trabajo.</p>
                 <p>Alejandro Acosta</p>
 
@@ -351,7 +391,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            16:00 h - 50 min
+                            16:50 h - 50 min
                             </p>
                         </div>
                     </Modal.Footer>
@@ -361,61 +401,14 @@ const EventSchedule = () => {
             </div>
           </div>
 
-          {/* Raquel Monica Evento */}
-          <div className="col-md-6 mb-4">
-            <div className="card cardmetropolitano">
-              <div className="overlay"></div>
-              <div className="card-body text-white">
-                <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
-                <p className="card-text">16:50 h - 40 min</p>
-                <p>The Rise of MLSecOps: Securing Machine Learning in the DevSecOps Era.</p>
-                <p>Raquel Guzman y Monica Carranza</p>
-
-                <button onClick={treceShow} className="button menu-btn">Más Detalles</button>
-
-                <Modal 
-                    show={treceS} 
-                    onHide={treceHid} 
-                >
-                    <Modal.Header closeButton>
-                        <Modal.Title>The Rise of MLSecOps: Securing Machine Learning in the DevSecOps Era.</Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                    This talk explores the emerging field of MLSecOps, a critical discipline for safeguarding machine learning systems in the age of AI. As organizations increasingly integrate AI and ML into their applications and processes, traditional DevSecOps practices must evolve to address the unique security challenges these technologies present.
-                    <br />
-                    <br />
-                    We'll delve into:
-                    <br />
-                    The convergence of MLSecOps and DevSecOps
-                    <br />
-                    Unique security risks in ML
-                    <br />
-                    Building secure ML pipelines
-                    <br />
-                    AI-driven security
-                    </Modal.Body>
-                    <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-                        <div>
-                            <p className="card-text" style={{ textAlign: 'left', margin: '0', padding: '0' }}>Raquel Guzman y Monica Carranza</p>
-                        </div>
-                        <div style={{ textAlign: 'right' }}>
-                            <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            16:50 h - 40 min
-                            </p>
-                        </div>
-                    </Modal.Footer>
-                </Modal>
-              </div>
-            </div>
-          </div>
-
+          
           {/* Joaquin M. Evento */}
           <div className="col-md-6 mb-4">
             <div className="card cardcuatroTD">
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
-                <p className="card-text">17:30 h - 50 min</p>
+                <p className="card-text">17:40 h - 40 min</p>
                 <p>AzureDevOps y la Ciberseguridad.</p>
                 <p>Joaquin Molina</p>
 
@@ -437,7 +430,7 @@ const EventSchedule = () => {
                         </div>
                         <div style={{ textAlign: 'right' }}>
                             <p className="card-text" style={{ margin: '0', padding: '0' }}>
-                            17:30 h - 50 min
+                            17:40 h - 40 min
                             </p>
                         </div>
                     </Modal.Footer>

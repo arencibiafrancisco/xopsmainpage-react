@@ -27,7 +27,7 @@ function App() {
             <Nav className="mx-auto ">
             <Link className='links px-4 font-weight-bold text-white' to="/#events" style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>EVENTO</Link>
                 <Link className='links px-4 font-weight-bold text-white' to="/#ponentes" style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>PONENTES</Link>
-                <Link className='links px-4 font-weight-bold text-white' to="/Sponsor#patrocinio"  style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>CONVIERTE PATROCINADOR</Link>
+                <Link className='links px-4 font-weight-bold text-white' to="/Sponsor#patrocinio"  style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>CONVIERTETE PATROCINADOR</Link>
                 <Link className='links px-4 font-weight-bold text-white' to="/Organizer#organizr" style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>ORGANIZADORES</Link>
             </Nav>
         <a href="https://www.eventbrite.es/e/entradas-xops-conference-1049115200807?aff=oddtdtcreator" className="button menu-btn" style={{ textDecoration: 'none' }}>
@@ -67,7 +67,7 @@ function App() {
         <div className="row">
           <div className="col-md-4 mb-3">
             <h5 className='heading'>Dirección</h5>
-            <p>Universidad Politecnica de Madrid</p>
+            <p>Universidad Politécnica de Madrid</p>
             <p>M-40, Puente de Vallecas, 28031 Madrid.</p>
           </div>
           <div className="col-md-4 mb-3">
