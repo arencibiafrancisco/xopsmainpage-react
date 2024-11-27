@@ -589,8 +589,7 @@ const EventSchedule = () => {
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar:</span>Salón de Actos</h5>
                 <p className="card-text">21:00 h</p>
-                <p>Closing.</p>
-                <p>End...</p>
+                <p>Cierre.</p>
               </div>
             </div>
           </div>

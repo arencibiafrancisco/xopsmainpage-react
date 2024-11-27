@@ -542,9 +542,8 @@ const EventSchedule = () => {
               <div className="overlay"></div>
               <div className="card-body text-white">
                 <h5 className="card-title"><span className='heading'>Lugar: </span>Salón Actos</h5>
-                <p className="card-text">21:00 h - 60 min</p>
-                <p>Closing.</p>
-                <p>End...</p>
+                <p className="card-text">21:00 h</p>
+                <p>Cierre.</p>
               </div>
             </div>
           </div>

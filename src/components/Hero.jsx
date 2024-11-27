@@ -10,7 +10,7 @@ function Hero() {
         <p className="lead">Fecha: 22 y 23 de Noviembre 2024 </p>
         <div className="mt-4 mx-4">
         <a href="https://www.eventbrite.es/e/entradas-xops-conference-1049115200807?aff=oddtdtcreator" class="btn mx-2 my-2 bg-color text-white btn-lg mr-3">Compra tu entrada</a>
-            <a href="#learn-more" className="btn mx-2  my-2 btn-outline-light btn-lg">Descubre más</a>
+            <a href="#learn-more" className="btn mx-2  my-2 btn-outline-light btn-lg">Ver agenda</a>
         </div>
     </div>
 </div>
