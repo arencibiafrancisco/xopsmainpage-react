@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-<Router basename="/xops">
+<Router basename="/">
 <ScrollHandler />
 <div className="root home-main-section">
         <Navbar bg="light" expand="lg" className='header'>
