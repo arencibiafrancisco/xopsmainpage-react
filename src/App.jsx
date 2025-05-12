@@ -75,6 +75,7 @@ function App() {
             <div className="mt-4 mx-4">
             <a href="https://www.eventbrite.ch/e/entradas-x-ops-conference-madrid-2025-1306767269079" className="btn mx-2 my-2 bg-color text-white btn-lg mr-3">Compra tu entrada</a>
                 <Link className="btn mx-2  my-2 btn-outline-light btn-lg" to="/#events">Ver agenda</Link>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=EaWMGDgsSEi09sqLCPLFFUHOFUdEMtRPqJBa35Bh2thURUtLTkZURlhTRFFJUlZDTTk5ODcyNTFBMi4u&embed=true"className="btn mx-2 my-2 bg-color text-white btn-lg mr-3">Hazte voluntario</a> 
             </div>
         </div>
     </div>
