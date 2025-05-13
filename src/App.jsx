@@ -29,13 +29,13 @@ function App() {
 <div className="root home-main-section">
         <Navbar bg="light" expand="lg" className='header'>
         <Navbar.Brand className='text-white font-weight-bold'>X-OPS CONFERENCE</Navbar.Brand>
-        <img src={logo} alt="Jane Doe" style={{ height: '51px', width: '56px' }} />
+        <img src={logo} alt="Jane Doe" style={{ height: '51px', width: '56px'}} />
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'/>
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-between">
             <Nav className="mx-auto ">
-            <Link className='links px-4 font-weight-bold text-white' to="/#events" style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>EVENTO</Link>
+             <Link className='links px-4 font-weight-bold text-white' to="/#events" style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>EVENTO</Link>
                 <Link className='links px-4 font-weight-bold text-white' to="/#ponentes" style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>PONENTES</Link>
-                <Link className='links px-4 font-weight-bold text-white' to="/Sponsor#patrocinio"  style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>CONVIERTETE EN PATROCINADOR</Link>
+                <Link className='links px-4 font-weight-bold text-white' to="/Sponsor#patrocinio"  style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>PATROCINADORES</Link>
                 <Link className='links px-4 font-weight-bold text-white' to="/Organizer#organizr" style={{ marginTop: '10px', marginBottom: '10px', textDecoration: 'none' }}>ORGANIZADORES</Link>
           
        
