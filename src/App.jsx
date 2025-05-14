@@ -28,8 +28,8 @@ function App() {
 <ScrollHandler />
 <div className="root home-main-section">
         <Navbar bg="light" expand="lg" className='header'>
-        <Navbar.Brand className='text-white font-weight-bold'>X-OPS CONFERENCE</Navbar.Brand>
-        <img src={logo} alt="Jane Doe" style={{ height: '51px', width: '56px'}} />
+        <Navbar.Brand style={{ marginTop: '-35px'}} className='text-white font-weight-bold'>X-OPS CONFERENCE</Navbar.Brand>
+        <img src={logo} alt="Jane Doe" style={{ height: '51px', width: '56px', marginTop: '-35px'}} />
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggle'/>
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-between">
             <Nav className="mx-auto ">
@@ -59,8 +59,8 @@ function App() {
 </NavDropdown>
 
             </Nav>
-        <a href="https://www.eventbrite.ch/e/entradas-x-ops-conference-madrid-2025-1306767269079" className="button menu-btn" style={{ textDecoration: 'none' }}>
-            TICKETS
+        <a href="https://www.eventbrite.ch/e/entradas-x-ops-conference-madrid-2025-1306767269079" className="button menu-btn" style={{ textDecoration: 'none', width: "110px", paddingLeft: "1%", marginTop: "-2%" }}>
+            ENTRADAS
         </a>
 
         </Navbar.Collapse>
