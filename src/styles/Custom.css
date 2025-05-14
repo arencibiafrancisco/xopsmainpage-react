@@ -442,12 +442,20 @@ margin-block: 1rem;
 .menu-btn {
   margin-left: 20px;  /* desplaza el boton ENTRADAS */
   padding-right: 1%;  /*desplaza el texto dentro del boton ENTRADAS */
-  
 }
 
 .xops-section {
   margin-top: 100px; /* desplaza hacia abajo la seccion */
 }
+.navbar-toggler {
+  border-color: white; /* color icono hamburguesa dispositivos moviles */
+  background-color: white;
+  margin-top: -30px;
+}
+.header img {
+    margin-left: -320px; /* Ajusta el icono x-ops hacia el texto */
+  }
+
 }
 
 /* Menú "EVENTOS ANTERIORES" */
