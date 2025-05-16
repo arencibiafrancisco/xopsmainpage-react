@@ -445,7 +445,8 @@ margin-block: 1rem;
 }
 
 .xops-section {
-  margin-top: 100px; /* desplaza hacia abajo la seccion */
+  margin-top: 0px; /* desplaza hacia abajo la seccion */
+  padding-top: 100px; /*desplaza hacia abajo el texto */
 }
 .navbar-toggler {
   border-color: white; /* color icono hamburguesa dispositivos moviles */
